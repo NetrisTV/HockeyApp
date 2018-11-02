@@ -26,3 +26,5 @@ Put the following code in your app.js (or alloy.js if you are using Alloy) to en
 	hockeyapp.start('<yourappid>');
 ```
 
+## Build
+`./gradlew app:tiBuild` from module root directory (not from `android`)
