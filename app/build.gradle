@@ -64,7 +64,7 @@ dependencies {
 // Android Studio GUI: `Run -> Edit Configurations -> Click Plus -> Gradle`
 // and call module build in one click
 task tiBuild(type: Exec, dependsOn: ['downloadLibrary']) {
-    commandLine 'ti', 'build', '--build-only', '--platform', 'android'
+    commandLine 'ti', 'build', '--build-only', '--platform', 'android', "--sdk", tiSDKName
     workingDir '../android'
 }
 
