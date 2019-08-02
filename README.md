@@ -1,5 +1,7 @@
 # HockeyApp Module
 
+## On November 16, 2019, HockeyApp will transition fully to [App Center](https://github.com/NetrisTV/ti.appcenter).
+
 ## Description
 
 HockeyApp SDK module for Titanium. Currently only unauthenticated support is available, including crash reports.
